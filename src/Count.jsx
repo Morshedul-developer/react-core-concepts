@@ -4,7 +4,7 @@ const Count = () => {
     const [count, setCount] = useState(0);
 
     const handleAdd = () => {
-        setCount(count + 1);
+        setCount(count + 5);
     }
 
     const design = {
