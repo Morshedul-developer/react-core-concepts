@@ -167,7 +167,7 @@
 
   &::before,
   &::after {
-    content: '';
+    content: "";
     position: absolute;
     top: -4.5px;
     border: 5px solid transparent;
@@ -181,4 +181,16 @@
     right: 0;
     border-right-color: var(--border);
   }
+}
+
+.card {
+  padding: "10px 40px";
+  background-color: "lightblue";
+  display: "inline-block";
+  margin-bottom: "10px";
+  border-radius: "5px";
+  -webkit-border-radius: "5px";
+  -moz-border-radius: "5px";
+  -ms-border-radius: "5px";
+  -o-border-radius: "5px";
 }
