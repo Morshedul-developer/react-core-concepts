@@ -1,10 +1,14 @@
 import { use } from "react";
+import User from "./User";
 
 const Users = ({data}) => {
     const users = use(data);
     return (
         <div className="card">
             <h3>Users: {users.length}</h3>
+            {
+                users.map(user=><User key={user.id} user={user}></User>)
+            }
         </div>
     );
 };
