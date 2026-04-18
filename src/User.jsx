@@ -1,9 +1,9 @@
 const User = ({user}) => {
     return (
         <div className="card">
-            <h3>Id: {user.id}</h3>
+            <h3>ID: {user.id}</h3>
             <h4>Name: {user.name}</h4>
-            <p>Email: {user.email}</p>
+            <p className="card">Email: {user.email}</p>
         </div>
     );
 };
